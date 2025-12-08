@@ -13,10 +13,9 @@ A full-stack web application for managing and analyzing retail sales data with a
 **Backend:**
 - Node.js with ES Modules
 - Express.js (Web Framework)
-- @supabase/supabase-js (Database Client)
 
 **Database:**
-- PostgreSQL (via Supabase)
+- mongodb
 
 ## Search Implementation Summary
 
@@ -96,8 +95,7 @@ npm install
 
 Create a `.env` file in the `backend` directory:
 ```env
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
+
 PORT=3001
 ```
 
@@ -116,8 +114,7 @@ npm install
 
 Create a `.env` file in the `frontend` directory:
 ```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
 ```
 
 Start the frontend development server:
